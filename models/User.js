@@ -18,7 +18,20 @@
           type:String,
           required:true,
           min:6
+
       },
+      name:{
+        type:String,
+        required:true,
+        min:50
+    },
+
+        usertype:{
+            type:String,
+            required:true,
+            min:50
+        },
+
       profilePicture:{
           type:String,
           default:"",
